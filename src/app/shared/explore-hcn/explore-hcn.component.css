@@ -1,0 +1,24 @@
+.explore-hcn-header-text h2 {
+    font-size: 48px;
+    font-family: BureauGrotesqueThreeSeven, 'Times New Roman', Times, serif;
+    margin-top: 0;
+    font-weight: 500;
+    color: #0a2d50;
+    line-height: 1.2;
+}
+.ex-links {
+    color: #eb2f2d;
+    font-size: 22px;
+    text-decoration: none;
+    border: 0;
+    font-family: BureauGrotesqueThreeSeven, 'Times New Roman', Times, serif
+}
+.exp-image img {
+width: 100%;
+}
+.exp-desc {
+    line-height: 1.6;
+    color: #666;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+}

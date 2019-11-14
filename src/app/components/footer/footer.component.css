@@ -1,0 +1,92 @@
+.footer-connect-with-us {
+    background-color: #0a2d50;
+    color: #ffffff;
+    margin-bottom: 0;
+    padding: 1.875rem 0;
+}
+.social-icon {
+    background-color: transparent;
+    border: 2px solid rgba(255,255,255,.4);
+    border-radius: 50%;
+    color: inherit;
+    display: inline-block;
+    height: 40px;
+    padding: .625rem;
+    text-align: center;
+    transition: all .15s ease;
+    width: 40px;
+    margin: 2px;
+}
+.connect-with {
+    float: left;
+}
+.footer-upper {
+    background: #5a6369;
+    padding-top: 3.75rem;
+}
+.area-of-interest {
+    font-family: "GT Sectra Fine", Georgia, "Times New Roman";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    /* border-bottom: 3px solid rgba(139,146,150,.5); */
+    padding-bottom: .9375rem;
+    color: rgb(236, 232, 25);
+}
+.area-interest-links .links-color::before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0px;
+    bottom: -3px;
+    height: 2px;
+    width: 0px;
+    transition: width 0s ease 0s, background 250ms ease 0s;
+}
+.area-interest-links .links-color a{
+    font-family: "GT Sectra Fine", Georgia, "Times New Roman";
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0.0375em;
+    line-height: 1.375em;
+    /* text-decoration: underline; */
+}
+.area-interest-links .links-color:hover {
+    color: #cdd7dc;
+    text-decoration: none;
+}
+.contact-us {
+    font-family: KingsBureauGrotFiveOne,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    font-size: 1.3125rem;
+    border-bottom: 3px solid rgba(139,146,150,.5);
+    margin-bottom: .9375rem;
+    padding-bottom: .9375rem;
+    color: #fff;
+}
+.contact p a {
+    font-style: normal;
+    font-weight: 400;
+    color: #fff;
+    text-decoration: underline;
+}
+.contact address {
+    color: #fff;
+}
+.contact p a:hover {
+    color: #cdd7dc;
+    text-decoration: none;
+}
+.site-footer {
+    background: #3e4649;
+    font-family: "Museo Sans", sans-serif;
+    font-size: 0.86667rem;
+    font-weight: 500;
+    color: white;
+}
+.list-style-none li {
+    list-style: none;
+}
