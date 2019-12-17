@@ -1,173 +1,81 @@
-
-.secondary-nav {
-    background: #e6ebed;
-    height: 450px;
-    background-image: url(../../../assets/doctor-563428_640.jpg);
-    background-repeat: no-repeat;
+.bd-example {
+    
+}
+.carousel-item img {
+    border: 4px solid;
+    border-color: #fff;
+    border-bottom: 10px solid;
+    border-bottom-color: #fff;
+}
+.bg-md-color {
+    background-color: #fff;
+}
+select.req-info-input {
     width: 100%;
-    background-size: 100% 100%;
+    border-radius: unset!important;
+    padding: 5px;
+    font-size: .875rem;
+    letter-spacing: .2px;
+    color: #09425A;
+    text-shadow: none;
 }
-.easy-to-access {
-    margin-top: 170px;
+.req-info-inputs {
+    width: 100%;
+    border-radius: 0px;
+    padding: 5px;
+    }
+.form-label-color {
+    font-size: .875rem;
+    letter-spacing: .2px;
+    color: #202124;
+    text-shadow: none;
 }
-.hcn-text {
-    color: #000000;
+.req-info-input option {
+    font-size: .875rem;
+    letter-spacing: .2px;
+    color: #202124;
+    text-shadow: none;
 }
-.hcn-text span {
-    color: #e6ebed;
+.submit-request {
+    background-color: #0c2340;
+    color: #fff;
+    font-size: .875rem;
+    letter-spacing: .2px;
+    text-shadow: none;
+    border-radius: 0px;
 }
-.program-link {
-    background: #ffffff;
-}
-.program-link-blue {
-    background-color: #274ac1;
-    color: #ffffff;
-}
-.program-link-blue .title {
-    color: #363d3d;
-    font-family: "GT Haptik", sans-serif;
-    font-size: 0.8rem;
-    font-weight: 500;
-    color: #ffffff;
-    letter-spacing: 0.25em;
-    line-height: 1.1em;
-    text-transform: uppercase;
-}
-.action-link-b a {
-    margin: 0;
-    padding: 0;
-    font-family: "GT Haptik", sans-serif;
-    font-size: 1.06667rem;
-    font-weight: 500;
-    letter-spacing: 0.06875em;
-    line-height: 1.249999em;
-    color: #ffffff;
-}
-.program-link .title {
-    color: #363d3d;
-    font-family: "GT Haptik", sans-serif;
-    font-size: 0.8rem;
-    font-weight: 500;
-    color: #737777;
-    letter-spacing: 0.25em;
-    line-height: 1.1em;
-    text-transform: uppercase;
-}
-.action-link a {
-    margin: 0;
-    padding: 0;
-    font-family: "GT Haptik", sans-serif;
-    font-size: 1.06667rem;
-    font-weight: 500;
-    letter-spacing: 0.06875em;
-    line-height: 1.249999em;
-    color: #000000;
-}
-.action-link a:after {
-    content: "\e80c";
-    position: absolute;
-    padding-left: 17px;
-    font-size: 0.65em;
-    color: #59b7df;
-    -webkit-transition: -webkit-transform ease 250ms;
-    transition: -webkit-transform ease 250ms;
-    transition: transform ease 250ms;
-    transition: transform ease 250ms, -webkit-transform ease 250ms;
-}
-.action-link-b a:after {
-    content: "\e80c";
-    position: absolute;
-    padding-left: 17px;
-    font-size: 0.65em;
-    color: #59b7df;
-    -webkit-transition: -webkit-transform ease 250ms;
-    transition: -webkit-transform ease 250ms;
-    transition: transform ease 250ms;
-    transition: transform ease 250ms, -webkit-transform ease 250ms;
-}
-.homepage-about-hcn {
-    font-size: 4.66667rem;
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #e53e30), color-stop(7%, #e53e30), color-stop(0%, transparent));
-    background-image: linear-gradient(to bottom, #e53e30 0, #e53e30 7%, transparent 0%);
-    background-position-y: -0.09571em;
-    background-repeat: repeat;
-    background-size: 1px 1.27143em;
-    line-height: 1.3em;
-    color: #000000;
-    font-family: "GT Haptik", sans-serif;
-    font-weight: 500;
-    margin: 0;
-    padding: 0;
-    padding-right: 0.25em;
-    padding-bottom: 0.6em;
-    letter-spacing: 0.0002em;
-}
-.homepage-about-hcn-desc {
-    font-size: 1rem;
-    font-weight: 600;
-    letter-spacing: 0.02667em;
-    line-height: 1.86667em;
-    /* background-color: #ffffff; */
-    font-family: "GT Haptik", sans-serif;
-    color: #231f20;
+
+/* .......about hcn..... */
+.why-ch-hcn {
     text-align: justify;
 }
-.homepage-about-hcn-desc-image {
-    width:100%;
-    height: auto;
+.bg-padding-p {
+    padding: 25px;
 }
-.homepage-about-hcn-bgc {
-    background-color: #ffffff;;
-}
-.explore-hcn-header-text h2 {
-    font-size: 48px;
-    font-family: BureauGrotesqueThreeSeven, 'Times New Roman', Times, serif;
-    margin-top: 0;
-    font-weight: 500;
-    color: #0a2d50;
-    line-height: 1.2;
-}
-.ex-links {
-    color: #eb2f2d;
-    font-size: 22px;
-    text-decoration: none;
-    border: 0;
-    font-family: BureauGrotesqueThreeSeven, 'Times New Roman', Times, serif
-}
-.exp-image img {
-width: 100%;
-}
-.exp-desc {
-    line-height: 1.6;
-    color: #666;
-    font-family: Georgia, Times, 'Times New Roman', serif;
-    font-weight: 600;
+.bg-padding-p p {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #4b4b4b;
 }
 
-/* ................. affiliation-hcn */
-.affiliation-hcn-bgC {
-    background-color: #f1f1f1;
+/* ...top professor */
+.top-prof img {
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin-right: 6px;
 }
-.affiliation-hcn-desc-bg {
-    background-color: #ffffff;
+.top-prof p {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #4b4b4b;
 }
-.affiliation-hcn-desc-bg .visit-link {
+/* .. */
 
+/* ...latest news ..... */
+.top-prof strong {
+    color: #007C92;
 }
-.affiliation-hcn-desc-bg .visit-link a {
-    -webkit-transition: border-bottom-color ease 250ms;
-    transition: border-bottom-color ease 250ms;
-    font-size: 18px
-}
-/* ..................................... */
-@media (max-width:414px){
-    .easy-to-access {
-        margin-top: 0px !important;
-    }
-    .homepage-about-hcn { 
-        font-size: 2.66667rem !important;
-    }
-    .explore-hcn-header-text h2 {
-        font-size: 1.2rem;
-    }
-}
+/* ...end */

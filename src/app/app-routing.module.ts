@@ -9,7 +9,9 @@ const routes: Routes = [
   { path: 'hcn', redirectTo: '/', pathMatch: 'full' },
   { path: 'whyHCN', loadChildren: () => import('./modules/why-hcn/why-hcn.module').then(m => m.WhyHCNModule) },
   { path: 'aboutHcn', loadChildren: () => import('./modules/about/about.module').then(m => m.AboutModule) },
-  { path: 'degreePrograms', loadChildren: () => import('./modules/degree-program/degree-program.module').then(m => m.DegreeProgramModule) }
+  { path: 'degreePrograms', loadChildren: () => import('./modules/degree-program/degree-program.module').then(m => m.DegreeProgramModule) },
+  { path: 'MEMBERSHIPAFFILIATION', loadChildren: () => import('./modules/membership-affliation/membership-affliation.module').then(m => m.MembershipAffliationModule) },
+  { path: 'applicationProcess', loadChildren: () => import('./modules/application-process/application-process.module').then(m => m.ApplicationProcessModule) }
 ];
 
 @NgModule({

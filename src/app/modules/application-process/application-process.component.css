@@ -1,0 +1,44 @@
+.hcn-app-pro-bg-img {
+    background-image: url(../../../assets/inner-pag-head-bg.jpg);
+    background-size: 100% 100%;
+}
+
+.about-pg ul {
+    padding:0; margin:0; white-space:nowrap;
+}
+.about-pg ul li {
+    list-style: none;
+    width: 100%; list-style-type:none;
+}
+.about-pg ul li a {
+    display: block;
+    padding: 0.35em 10px;
+    padding-right: 30px;
+    background: #eaeaf0;
+    position: relative;
+    line-height: 1.3;
+    color: #3b3838;
+}
+.about-pg ul li a::after {
+    content: '→';
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-weight: bold;
+}
+.dp-right-section-bColor {
+    border-left: 1.5px solid #eaeaf0;
+}
+.dp-whole-section-bColor {
+    border-top: 1.5px solid #eaeaf0;
+}
+.hcn-app-pro-bg-img .container {
+    background-color: #fff;
+}
+.dp-whole-section-bColor .container {
+    background-color: #fff;
+}

@@ -22,3 +22,12 @@ width: 100%;
     font-family: Georgia, Times, 'Times New Roman', serif;
     font-weight: 600;
 }
+.grow-hover:hover {
+    border: 0.25rem solid transparent;
+    transform: scale(1);
+    transition: all 325ms cubic-bezier(0, 0, 0, 1);
+    background: #edf2f9;
+}
+.bg-md-color {
+    background-color: #fff;
+}

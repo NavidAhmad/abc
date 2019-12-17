@@ -35,3 +35,9 @@
 .dp-whole-section-bColor {
     border-top: 1.5px solid #eaeaf0;
 }
+.dp-whole-section-bColor .container {
+    background-color: #fff;
+}
+.hcn-degree-bg-img .container {
+    background-color: #fff;
+}

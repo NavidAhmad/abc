@@ -15,3 +15,11 @@ export const accordionWithPlusMinusSign = () => {
         });
     });
 }
+export const hideDivOnClick = () => {
+    $(document).ready(function(){
+        // Add minus icon for collapse element which is open by default
+        $('.navbar-nav>li>a').on('click', function(){
+            $('.navbar-collapse').collapse('hide');
+        });
+    });
+}

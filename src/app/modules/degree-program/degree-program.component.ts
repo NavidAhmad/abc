@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { accordionWithPlusMinusSign } from '../../utilities/hcn-utills';
 
 @Component({
   selector: 'app-degree-program',
@@ -10,6 +11,7 @@ export class DegreeProgramComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    accordionWithPlusMinusSign();
   }
 
 }
